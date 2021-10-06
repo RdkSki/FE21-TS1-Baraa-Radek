@@ -8,8 +8,7 @@ function multi(){
     for (let k :number=1;k<=numbers.length;k++){
         for(let x  of numbers){
         
-        document.getElementById("res").innerHTML+=( "<center style='color:red;'>" +  k +" x "+ x +" = "+ k*x+" <br><br> </center>" )
-        }
+        (document.getElementById("res") as HTMLElement).innerHTML+=( "<center style='color:red;'>" +  k +" x "+ x +" = "+ k*x+" <br><br> </center>" )      }
     }
 }
 
