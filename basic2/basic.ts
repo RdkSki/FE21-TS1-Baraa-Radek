@@ -16,10 +16,13 @@ fullName.forEach(element => {
     }
 }); */
 
-// basic 3
-let fullName :Array<{
+// basic 2
+
+
+/* let fullName :Array<{
     first:string,
-    last: string
+    last: string,
+    anything: Function
 }> =[
 {
     first:"Baraa",
@@ -38,3 +41,11 @@ setTimeout(function ()  {
         }
     });
 },5000);
+ */
+
+// basic 3
+
+/* let myArr:Array<string>= ["baraa","radek","paul","obi"];
+myArr.forEach(function(a,b){
+    console.log(a,b)
+}) */
